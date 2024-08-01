@@ -96,7 +96,7 @@ export default function Meme() {
             <div id="meme--con" className="meme--container">
                 <button onClick={() => memePicker()}>New Meme Image</button>
                 <h3 id="top" className="meme--text">{memes.topText}</h3>
-                <img src={memes.randomImage} alt="Meme image" className="meme--image"></img>
+                <img src={memes.randomImage} alt="meme picture" className="meme--image"></img>
                 <h3 id="bottom" className="meme--text">{memes.bottomText}</h3>
                 <button onClick={handleSubmit}>Save Meme</button>
             </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 
 
-export default function header(){
+function Header(){
     return(
        <div className="header--background">
         <header>
@@ -13,3 +13,5 @@ export default function header(){
        </div>
     )
 }
+
+export default Header
